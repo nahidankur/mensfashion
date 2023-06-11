@@ -1,4 +1,4 @@
-# supershop
+# MensFashion
 
 `MensFashion` is an Ecommerce Application made with `Reactjs`, `Nodejs`, `Mongodb`, `Express`, `Redux-Toolkit`,  & `react-bootstrap`. Users can pay the bill through `PayPal` or `Credit Card` to purchase his desired product. 
 
