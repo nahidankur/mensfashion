@@ -1,0 +1,136 @@
+const products = [
+  {
+    name: 'DreamStep Sneakers',
+    image: '/images/product-1.jpg',
+    description:
+      'Experience ultimate comfort and style with our "DreamStep Sneakers" by Keds. These sleek and versatile sneakers are designed to make every step feel like walking on clouds. The lightweight construction and cushioned insole provide exceptional support, while the breathable fabric ensures your feet stay cool and fresh all day long. Whether youre running errands, going for a stroll, or meeting friends, the DreamStep Sneakers offer a perfect blend of fashion and functionality. With their timeless design and premium materials, these sneakers are a must-have addition to your shoe collection. Step into a world of comfort and step up your style game with DreamStep Sneakers by Keds.',
+    brand: 'Addidas',
+    category: 'Shoes',
+    price: 89.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: 'Essential Classic Tee',
+    image: '/images/product-2.jpg',
+    description:
+      'Experience ultimate comfort and style with our "DreamStep Sneakers" by Keds. These sleek and versatile sneakers are designed to make every step feel like walking on clouds. The lightweight construction and cushioned insole provide exceptional support, while the breathable fabric ensures your feet stay cool and fresh all day long. ',
+    brand: 'Infinity',
+    category: 'Shirt',
+    price: 599.99,
+    countInStock: 7,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Cannon EOS 80D DSLR Camera',
+    image: '/images/product-3.jpg',
+    description:
+      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+    brand: 'Cannon',
+    category: 'Electronics',
+    price: 929.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    name: 'Urban Edge Plaid Shirt',
+    image: '/images/product-4.jpg',
+    description:
+      'Embrace urban cool with our Urban Edge Plaid Shirt. This stylish shirt features a modern plaid pattern and a relaxed fit for a laid-back yet fashion-forward look. Made from high-quality cotton, it offers both comfort and durability. Whether youre exploring the city or hanging out with friends, the Urban Edge Plaid Shirt adds a touch of edgy sophistication to your outfit.',
+    brand: 'Easy',
+    category: 'Shirt',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Sunrise Stripe Button-Up',
+    image: '/images/product-5.jpg',
+    description:
+      'Start your day off right with our Sunrise Stripe Button-Up shirt. Featuring a vibrant stripe pattern reminiscent of a beautiful sunrise, this shirt brings a pop of color and energy to any ensemble. The lightweight fabric and relaxed fit ensure all-day comfort, while the button-up design adds a touch of sophistication. Embrace the spirit',
+    brand: 'Easy',
+    category: 'Shirt',
+    price: 49.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 10,
+  },
+  {
+    name: 'Coastal Breeze Linen Shirt',
+    image: '/images/product-7.jpg',
+    description:
+      'Experience the breezy comfort of our Coastal Breeze Linen Shirt. Made from breathable linen fabric, this shirt is perfect for warm weather and beachside adventures. The relaxed fit and coastal-inspired design create a laid-back and effortlessly chic look. Whether youre strolling along the shore or enjoying a seaside brunch, the Coastal Breeze Linen Shirt keeps you cool and stylish.',
+    brand: 'Amazon',
+    category: 'Shirt',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Urban Edge Plaid Shirt',
+    image: '/images/product-14.jpg',
+    description:
+      'Embrace urban cool with our Urban Edge Plaid Shirt. This stylish shirt features a modern plaid pattern and a relaxed fit for a laid-back yet fashion-forward look. Made from high-quality cotton, it offers both comfort and durability. Whether youre exploring the city or hanging out with friends, the Urban Edge Plaid Shirt adds a touch of edgy sophistication to your outfit.',
+    brand: 'Easy',
+    category: 'Shirt',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Urban Edge Plaid Shirt',
+    image: '/images/product-10.jpg',
+    description:
+      'Embrace urban cool with our Urban Edge Plaid Shirt. This stylish shirt features a modern plaid pattern and a relaxed fit for a laid-back yet fashion-forward look. Made from high-quality cotton, it offers both comfort and durability. Whether youre exploring the city or hanging out with friends, the Urban Edge Plaid Shirt adds a touch of edgy sophistication to your outfit.',
+    brand: 'Easy',
+    category: 'Shirt',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'Vintage Vibe Graphic Tee',
+    image: '/images/product-9.jpg',
+    description:
+      'ap into nostalgic vibes with our Vintage Vibe Graphic Tee. Featuring a retro-inspired graphic print, this shirt brings a touch of vintage charm to your wardrobe. The soft cotton fabric and relaxed fit ensure all-day comfort, while the unique design adds a statement to any outfit. Embrace your love for all things vintage with the Vintage Vibe Graphic Tee.',
+    brand: 'Amazon',
+    category: 'Shirt',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Amazon Echo Dot 3rd Generation',
+    image: '/images/product-6.jpg',
+    description:
+      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+    brand: 'Amazon',
+    category: 'Electronics',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+  {
+    name: 'Modern Minimalist Oxford',
+    image: '/images/product-12.jpg',
+    description:
+      'levate your formal attire with our Modern Minimalist Oxford shirt. With its clean and refined design, this shirt exudes contemporary elegance. The high-quality cotton fabric and tailored fit offer a polished and sophisticated look. Whether youre attending a business meeting or a special event, the Modern Minimalist Oxford adds a touch of class to your ensemble.',
+    brand: 'Amazon',
+    category: 'Shirt',
+    price: 29.99,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+];
+
+export default products;
