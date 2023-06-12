@@ -47,7 +47,6 @@ const RegisterScreen = () => {
       }
     }
   };
-
   return (
     <Container style={{marginTop: "150px"}}>
       <FormContainer>

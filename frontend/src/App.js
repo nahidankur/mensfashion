@@ -28,9 +28,7 @@ const App = () => {
       <ToastContainer />
       <Header />
       <main>
-      
           <Outlet />
-       
       </main>
       <Footer />
     </>

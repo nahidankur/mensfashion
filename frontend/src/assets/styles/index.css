@@ -75,3 +75,7 @@ table th {
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
 }
+
+h1 , h3, h2 {
+  color: #434343 !important;
+}
