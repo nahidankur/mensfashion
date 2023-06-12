@@ -7,6 +7,19 @@ Any user can choice his favourite product. He/She needs to be logged in or creat
 
 # [Live Preview Here](Link Here)
 
+## Testing Admin Functionality
+### Admin User Credentials
+
+To access the admin functionality, use the following credentials:
+
+- Email: admin@gmail.com
+- Password: 123456
+
+## Testing General Customer Functionality
+
+- Email: nahid@gmail.com
+- Password: 123456
+
 # Installation Guide
 
 ### Install the dependencies (Backend)

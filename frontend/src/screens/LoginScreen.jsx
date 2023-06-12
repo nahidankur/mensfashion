@@ -45,6 +45,7 @@ const LoginScreen = () => {
     <Container style={{marginTop: "150px"}}>
           <FormContainer >
       <h1>Sign In</h1>
+      <p> <strong>For Testing Admin Functionality:</strong>  <br/>Admin User: <br/>email:  <strong>admin@gmail.com</strong> <br/>password:  <strong>123456</strong>  </p>
 
       <Form onSubmit={submitHandler}>
         <Form.Group className='my-2' controlId='email'>
